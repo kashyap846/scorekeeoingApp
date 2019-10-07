@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/teama"
+        android:layout_width="117dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="273dp"
+        android:text="@string/teama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Team A" />
+
+    <Button
+        android:id="@+id/increaseA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="38dp"
+        android:text="@string/increaseA"
+        app:layout_constraintEnd_toStartOf="@+id/decreaseA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teama" />
+
+    <Button
+        android:id="@+id/decreaseA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="237dp"
+        android:text="@string/decreaseA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/increaseA"
+        app:layout_constraintTop_toBottomOf="@+id/teama" />
+
+    <TextView
+        android:id="@+id/teamb"
+        android:layout_width="105dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="285dp"
+        android:text="@string/teamb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/increaseA" />
+
+    <Button
+        android:id="@+id/increaseB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/increaseB"
+        app:layout_constraintEnd_toStartOf="@+id/decreaseB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teamb" />
+
+    <Button
+        android:id="@+id/decreaseB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="448dp"
+        android:text="@string/decreaseB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/increaseB"
+        app:layout_constraintTop_toBottomOf="@+id/teamb" />
+
+    <TextView
+        android:id="@+id/score_display"
+        android:layout_width="117dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="273dp"
+        android:text="Score Display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

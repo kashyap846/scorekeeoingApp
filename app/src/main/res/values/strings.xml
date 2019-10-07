@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScorekeepingApp</string>
+    <string name="teama">Team A</string>
+    <string name="teamb">Team B</string>increaseA
+    <string name="increaseA">+</string>
+    <string name="increaseB">+</string>
+    <string name="decreaseA">-</string>
+    <string name="decreaseB">-</string>
+</resources>
